@@ -360,7 +360,6 @@ function App() {
                   className="bg-white/60 backdrop-blur-md border border-gray-200/70 rounded-xl p-4 flex flex-col sm:flex-row sm:justify-between sm:items-center gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
                 >
 
-                  {/* Expense Details */}
                   <div>
                     <h3 className="font-bold text-lg text-gray-900">
                       {expense.title}
@@ -377,7 +376,6 @@ function App() {
                     </p>
                   </div>
 
-                  {/* Amount + Buttons */}
                   <div className="flex flex-wrap items-center gap-3">
 
                     <p className="text-lg font-bold text-gray-900">
